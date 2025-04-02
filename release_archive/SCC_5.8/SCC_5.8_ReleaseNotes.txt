@@ -1,0 +1,112 @@
+ Distribution A: Approved for Public Release (16 Feb 2021) NIWCLANT SPR# 2021-52
+
+ SCAP Compliance Checker Release Notes                   Aug 24, 2023   15:03:48
+ Naval Information Warfare Center (NIWC) Atlantic
+ https://www.niwcatlantic.navy.mil/scap/
+
+
+ SCAP Compliance Checker 5.8 Features Added
+ ===============================================================================
+ Type     IssueID  Summary
+ -------------------------------------------------------------------------------
+ Feature  32451    Update openSSL dependencies to current version
+
+ Feature  32442    Create NIWC Enhanced versions of DISA STIG SCAP content
+                   based on July 2023 releases from DISA
+
+ Feature  32424    Add command line parameter to select existing configuration
+                   profile 
+
+ Feature  32423    Add command line parameter to list all available SCC
+                   configuration profiles
+
+ Feature  32422    Add command line parameter to create new configuration
+                   profile (based on current configuration)
+
+ Feature  32417    Add a configuration profile manager to allow for easy
+                   switching of configuration files from the GUI
+
+ Feature  32412    Update custom directory for manual question results to also
+                   include tailoring files
+
+ Feature  32410    Add SSH remote scanning support for Ubuntu 22.04 x64
+
+ Feature  32406    Add shortened aliases to --listAllBenchmarks '-lb' and
+                   --listAllProfiles '-lp'
+
+ Feature  32405    Add new command line parameter (-ct, --createTailoringFile)
+                   to create an XCCDF tailoring file for manual end user edits
+
+ Feature  32404    Add command line parameter --doNotSaveChanges, which
+                   prevents updating SCC's option file for cron job usage
+
+ Feature  32395    Update Tailoring to allow for the creation of refine-rules
+                   via SCC's tailoring GUI, even if they don't exist in source
+                   content 
+
+ Feature  32392    Improve methods for adding tailoring rule remarks and
+                   refine-rule remarks
+
+ Feature  32391    Add Tailoring rule and refine-rule remarks to SCC's detailed
+                   Text/HTML reports
+
+ Feature  32390    Add XCCDF fixtext to Tailoring form, allowing
+                   searching/filtering by it, and displaying in the rule
+                   details pane
+
+ Feature  32383    Add support for Ubuntu 22.04 x64
+
+ Feature  32381    Add feature to mark individual SCAP benchmarks as applicable
+                   to all targets
+
+ Feature  32375    Add support for xccdf refine-rules selectors for finding
+                   OCIL Manual Questions to load
+
+ Feature  32374    Update refine-rule to be displayed on the rule details page,
+                   vs a separate row in the tree
+
+ Feature  32370    Update tailoring to support selecting multiple rows to
+                   enable/disable
+
+ Feature  32369    Update XCCDF Tailoring to be aware of Automated/Manual
+                   status for each rule
+
+ Feature  32368    Improve efficiency of loading Tailoring form, remove
+                   displaying of XCCDF groups
+
+
+
+ SCAP Compliance Checker 5.8 Defects Resolved
+ ===============================================================================
+ Type     IssueID  Summary
+ -------------------------------------------------------------------------------
+ Defect   32430    Add end user contributed info regarding UAC remote
+                   restrictions to user manual for Windows non-domain WMI based
+                   scans   
+
+ Defect   32421    Unable to use SCC with tailoring in a mult-user environment,
+                   DB is locked "failed to initialize tailoring database"
+
+ Defect   32407    Update all XML results to have attributes that are sorted
+                   alphabetically instead of randomly ordered
+
+ Defect   32398    Fix manual question lost data issues when answering via GUI
+                   after switching profiles or tailoring
+
+ Defect   32397    Fix Windows classic remote scan related to residual data for
+                   remote classic scans with trustees when scanning multiple
+                   computers
+
+ Defect   32394    Fix issues with Windows sid_object and filters against the
+                   trustee_sid
+
+ Defect   32389    Update tailoring form to take refine-rule severity and
+                   Automated/Manual into account when loading form
+
+ Defect   32379    Clean up XCCDF XML rule titles to remove any trailing line
+                   break to prevent issues viewing rule titles in tailoring
+                   form    
+
+ Defect   32376    Update manual questions form to populate questions based on
+                   document and profile
+
