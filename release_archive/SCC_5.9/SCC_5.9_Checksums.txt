@@ -1,0 +1,189 @@
+####### SCC_5.9 Check Sums ######
+
+ ========== SCC_5.9_Windows ========= 
+scc-5.9_Windows_bundle.zip
+SHA256:  91F05F249143EAC87F9088D16E339B7CE178B22C0C3F4195F14D926A3B0EC4DD
+
+SCC_5.9_Windows_Setup.exe
+SHA256:  D78984DF89B3396F7B752C49B1720079EA43DBD6F83FD4734531169107F352F3
+
+scc-5.9_Windows.zip
+SHA256:  0a8386f7fad9e91add877328bc6616ce0dd1de31f298e441bfef746d9b9ccff6
+
+scc.exe
+SHA256:  ba322b4f45d79a33e82db1158943bbeedf583565c2123e1d59b4a68d298c3066
+
+cscc.exe
+SHA256:  d44a5a57b21b42a4e6faa6c6d28f7e8182e3d7ea0eacd2aa8f47362c9f202310
+
+SCC_Service32.exe
+SHA256: 8c620ea6937c4bdf76bb352ba80b1c5267a25eb0515f059ae7b08dfcbfa74f99
+
+
+ ========== SCC_5.9_raspbian11_armv7l-32 ========= 
+scc-5.9_raspbian11_armv7l-32_bundle.zip
+SHA256:  0e3e451a385585cfdc017db898bb4903d2c042883d22b658871f509bfbfca5d3
+
+scc-5.9.raspbian.11_armhf.deb
+SHA256:  44acca0dc49bdd7c0399a326786c4e11b3967f1128f4663b61b9915c029ebb4c
+
+scc-5.9_raspbian11_armv7l.tar.gz
+SHA256:  b4b44f51a429400de45b246856641802c3168bbdbddde43f822d9d8dff97054a
+
+cscc
+SHA256:  54c48072c2972cb21f64ebb2a86dc8efd606ecdbb56fe360c5cfb031ec331422
+
+scc
+SHA256:  54c48072c2972cb21f64ebb2a86dc8efd606ecdbb56fe360c5cfb031ec331422
+
+
+ ========== SCC_5.9_rhel7_sles12-15_oracle-linux7_x86_64 ========= 
+scc-5.9_rhel7_sles12-15_oracle-linux7_x86_64_bundle.zip
+SHA256:  43d972dc6ea453d7efd30919fe4c9953724094dcd2d6cfe09512601d7539ac9b
+
+scc-5.9.rhel7.x86_64.rpm
+SHA256:  fc22534d119a60ed3e50cc64c8ca387a89492e7ea59bb53665457282b0018844
+
+scc-5.9_rhel7_x86_64.tar.gz
+SHA256:  e44c7d00e6d29bb3666166969d6da06d0431aa15f3db72eedf20f478bd7ec4e8
+
+cscc
+SHA256:  e12331e165e46dcf0998015c826209cfa6761fc3654a43990ff6dfbf8914d972
+
+scc
+SHA256:  e12331e165e46dcf0998015c826209cfa6761fc3654a43990ff6dfbf8914d972
+
+
+ ========== SCC_5.9_rhel8_oracle-linux8_aarch64 ========= 
+scc-5.9_rhel8_oracle-linux8_aarch64_bundle.zip
+SHA256:  b4e258e912cfcba24406028929297ed04c2b9595b4a8040359f7589feceb1e2e
+
+scc-5.9.rhel8.aarch64.rpm
+SHA256:  b225243c90d3d027b82359e29528422780f8b750c239ce09915d7cdd65c441ab
+
+scc-5.9_rhel8_aarch64.tar.gz
+SHA256:  d438a364dcf93bece40a65b4535f6efbcbee149cda17701a35a9e14944ed80a0
+
+cscc
+SHA256:  2b28ea56bffb42f239d4c335983f35668212d2b99f7a06812f6f0b3938f01ed9
+
+scc
+SHA256:  2b28ea56bffb42f239d4c335983f35668212d2b99f7a06812f6f0b3938f01ed9
+
+
+ ========== SCC_5.9_rhel8_oracle-linux8_x86_64 ========= 
+scc-5.9_rhel8_oracle-linux8_x86_64_bundle.zip
+SHA256:  f8ed281a3913d6359c71b63ad5279a130c5ab3caf38bdac39de45e7cc1a79d2c
+
+scc-5.9.rhel8.x86_64.rpm
+SHA256:  b50d0f46aeb37ed4599a4b53f5d1a288ff6f314b9303362f6647e54b3346947a
+
+scc-5.9_rhel8_x86_64.tar.gz
+SHA256:  7d4d2e350c4a3b8403d449481a1378c2be8c38f5692156eeab588032ff633948
+
+cscc
+SHA256:  59991476df3433dfbb6e4ca7e450f3823b578f075e02bfe76381094a48292538
+
+scc
+SHA256:  59991476df3433dfbb6e4ca7e450f3823b578f075e02bfe76381094a48292538
+
+
+ ========== SCC_5.9_rhel9_x86_64 ========= 
+scc-5.9_rhel9_x86_64_bundle.zip
+SHA256:  775531f09318607e0148b74b8011f6b25d4c7cc30ce61aefb5913a5d35da4f6d
+
+scc-5.9.rhel9.x86_64.rpm
+SHA256:  4b23d6dafa139c2d0d2a01925efb96d0ec0393408335c06bd1e05101fac12640
+
+scc-5.9_rhel9_x86_64.tar.gz
+SHA256:  cb9d1dc5e7fcb22ae017690555efd2f1cc5eeb218e0e47a6c56b202ae56408ad
+
+cscc
+SHA256:  87a1e99164cf1347d06db63fdaf12728286e90aec9c180ecf2346c689c2c99dc
+
+scc
+SHA256:  87a1e99164cf1347d06db63fdaf12728286e90aec9c180ecf2346c689c2c99dc
+
+
+ ========== SCC_5.9_solaris11_i386 ========= 
+scc-5.9_solaris11_i386_bundle.zip
+SHA256:  0faa2b3b9ba11bb53423232b9a4109a07c412f62b8b7df043321926b6fc83b90
+
+scc-5.9-solaris11-i386.gz
+SHA256:  8f935566126fce2fe3fc9d89671e66e5804f053c24d54715d893aa6a8d240241
+
+scc-5.9_solaris11_i386.tar.gz
+SHA256:  7205a7e5bf50e83f8cfb1cc086d54a10474e7c8e942a323d0c9e5241d8245039
+
+cscc
+SHA256:  a5febe11b934d00aefa05056ff2fcab2d5552e4984a1649a876cc76c61abeee7
+
+
+ ========== SCC_5.9_solaris11_sparc ========= 
+scc-5.9_solaris11_sparc_bundle.zip
+SHA256:  8d5bcbae5f268bb928ed41543c86b7489451f00df63f3bf6782e2dc222d13e68
+
+scc-5.9-solaris11-sparc.gz
+SHA256:  4b7c38de14fcf0b1c4ef965b4be516c91e1e395c6ac7f633b5809966d136bd74
+
+scc-5.9_solaris11_sparc.tar.gz
+SHA256:  59e7bce3e63caa262efe93ca8f5eeb20d1dd5f0fd3cc21f6cd436451f01987ed
+
+cscc
+SHA256:  8957e043a1e5219bff90194dd9ce54fe6d1b8d6d0025adc1f3e47d6e516c983c
+
+
+ ========== SCC_5.9_ubuntu18_ubuntu_20_amd64 ========= 
+scc-5.9_ubuntu18_ubuntu20_amd64_bundle.zip
+SHA256:  bdbf7cd44cd1dc35d42ca3c03bb0ef047514a8b05a8445cd2148bb608a8267c7
+
+scc-5.9.ubuntu.18_amd64.deb
+SHA256:  67061ba2d1b8dae89ea34c399e1f28d223731bf799f8c92052bb539e89265c92
+
+scc-5.9_ubuntu18_amd64.tar.gz
+SHA256:  4d7646d0e1238f0c1fe987e04e9733f7fb6c6631d59cc9388f4ce43195a44460
+
+cscc
+SHA256:  9a460fbd8a0628010a81cfccc8aafeb50718d61a05f504436fcd1d3390805f90
+
+scc
+SHA256:  9a460fbd8a0628010a81cfccc8aafeb50718d61a05f504436fcd1d3390805f90
+
+
+ ========== SCC_5.9_ubuntu20_arm64 ========= 
+scc-5.9_ubuntu20_raspios-bullseye_arm64_bundle.zip
+SHA256:  a9e44e228f240c9f407dfe556be7411cd3b790b87beb56d7e1e8c03cb6ba836e
+
+scc-5.9.ubuntu.20_arm64.deb
+SHA256:  b7e406c4bd9d7aed3bd52869931b3f3cf3dae7ca36f56943fcb146ade165e37f
+
+scc-5.9_ubuntu20_arm64.tar.gz
+SHA256:  995dc77873e7294d5cf3438107ee734545e1edc95fe7d3744d0097c46d6818a0
+
+cscc
+SHA256:  babdc06144df4ea502c66a5f0e1db708e14444bf5433664353761d12c683fe5f
+
+scc
+SHA256:  babdc06144df4ea502c66a5f0e1db708e14444bf5433664353761d12c683fe5f
+
+
+ ========== SCC_5.9_ubuntu22_amd64 ========= 
+scc-5.9_ubuntu22_amd64_bundle.zip
+SHA256:  99a9c0d13d8af6d746eb88734b8227b2225806d242bc40ef30719e66d94ca79c
+
+scc-5.9.ubuntu.22_amd64.deb
+SHA256:  79dd588f8088de6a1b0dc279e3fc46b5ce04bab6cab7b5f3e983ac9fedc95617
+
+scc-5.9_ubuntu22_amd64.tar.gz
+SHA256:  c288041bbaac8c8859a1e742d640847b025118ffe86b9317ff1da8562dbf18d6
+
+cscc
+SHA256:  70cc1d31695254748e07d2e869443e4385cf1b954c8ce7c5a0cc458c4514532f
+
+scc
+SHA256:  70cc1d31695254748e07d2e869443e4385cf1b954c8ce7c5a0cc458c4514532f
+
+
+SCC_5.9_UNIX_Remote_Scanning_Plugin.scc
+SHA_256:  0f73d6df54718ae5c81483a455f19152dc0537c7d686773a4cc9e96503c401ad
+

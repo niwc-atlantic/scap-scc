@@ -1,0 +1,42 @@
+ Distribution A: Approved for Public Release (16 Feb 2021) NIWCLANT SPR# 2021-52
+
+ SCAP Compliance Checker Release Notes                   Nov 21, 2024   10:23:14
+ Naval Information Warfare Center (NIWC) Atlantic
+ https://www.niwcatlantic.navy.mil/scap/
+
+
+ SCAP Compliance Checker 5.10.1 Features Added
+ ===============================================================================
+ Type     IssueID  Summary
+ -------------------------------------------------------------------------------
+ Feature  32705    Include updated SCAP content from DISA's Q4 2024 release
+
+
+
+ SCAP Compliance Checker 5.10.1 Defects Resolved
+ ===============================================================================
+ Type     IssueID  Summary
+ -------------------------------------------------------------------------------
+ Defect   32709    Fix uninstall issues of SCC on Windows when installed on a
+                   non-English version of Windows
+
+ Defect   32698    SCC results differ from local scan to remote SSH scan of
+                   certain RHEL systems reporting loopback IP address
+
+ Defect   32695    Decrease default thresholds for pass/fail details to prevent
+                   large and slow to create reports and XCCDF
+
+ Defect   32694    Fix RHEL9 RPM to not have conflicts with liblzma
+
+ Defect   32693    Remove outdated (and unused) liblzma from all installation
+                   packages
+
+ Defect   32692    Fix report generation slowdown when creating reports with
+                   numerous failed SQL records (MS SQL Server content)
+
+ Defect   32689    Update Windows 'ntuser' tests to exclude user profiles that
+                   have not be logged into via Windows Explorer
+
+ Defect   32688    CKL report does not correctly separate 'FINDING_DETAILS'
+                   from 'Comments' with updates made in 5.10
+

@@ -1,0 +1,41 @@
+SCAP Compliance Checker (SCC) 5.9 Readme
+03/28/2024
+
+SCC_5.9_ReleaseNotes.txt
+- Contains list of high level features added and bugs fixed in this release
+
+SCC_5.9_Checksums.txt
+- Contains SHA256 checksums of all zips, installers and binaries.
+
+SCC_5.9_UNIX_Remote_Scanning_Plugin.scc
+- Plugin which can be installed into the SCC GUI to perform SSH based remote reviews of Linux, Solaris and MacOS.
+
+Rasbian/Raspberry Pi OS:
+- All bundles contain release notes, user manual, DEB installer and a tar.gz file for manual installation.
+scc-5.9_raspbian11_armv7l-32_bundle.zip
+scc-5.9_ubuntu20_raspios-bullseye_arm64_bundle.zip
+
+RHEL, SUSE and Oracle Linux:
+- All bundles contain release notes, user manual, RPM installer and a tar.gz file for manual installation.
+scc-5.9_rhel7_sles12-15_oracle-linux7_x86_64_bundle.zip  
+scc-5.9_rhel8_oracle-linux8_x86_64_bundle.zip 
+scc-5.9_rhel8_oracle-linux8_aarch64_bundle.zip
+scc-5.9_rhel9_oracle-linux9_x86_64_bundle.zip 
+
+RPM-GPG-KEY-scc-5.9
+ - public key for validating RPM's, per RHEL STIG requirement
+
+Solaris:
+- All bundles contain release notes, user manual, PKG installer and a tar.gz file for manual installation.
+scc-5.9_solaris11_i386_bundle.zip
+scc-5.9_solaris11_sparc_bundle.zip
+
+Ubuntu:
+- All bundles contain release notes, user manual, DEB installer and a tar.gz file for manual installation.
+scc-5.9_ubuntu18_ubuntu20_amd64_bundle.zip
+scc-5.9_ubuntu20_raspios-bullseye_arm64_bundle.zip
+scc-5.9_ubuntu22_amd64_bundle.zip
+
+Windows:
+- Contains release notes, user manual, EXE installer and a zip file for manual installation.
+scc-5.9_Windows_bundle.zip

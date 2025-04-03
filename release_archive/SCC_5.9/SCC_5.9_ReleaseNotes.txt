@@ -1,0 +1,176 @@
+ Distribution A: Approved for Public Release (16 Feb 2021) NIWCLANT SPR# 2021-52
+
+ SCAP Compliance Checker Release Notes                   Mar 28, 2024   13:16:07
+ Naval Information Warfare Center (NIWC) Atlantic
+ https://www.niwcatlantic.navy.mil/scap/
+
+
+ SCAP Compliance Checker 5.9 Features Added
+ ===============================================================================
+ Type     IssueID  Summary
+ -------------------------------------------------------------------------------
+ Feature  32606    Add NIWC developed content for SQL Instance and SQL Server
+                   based on DISA STIG
+
+ Feature  32599    Add remote SSH scanning support for Oracle Linux 9
+
+ Feature  32598    Add NIWC Enhanced SCAP content for RHEL 9
+
+ Feature  32589    Update NIWC Enhanced content based on DISA Q1 2024 release
+
+ Feature  32588    Add rule applicability reference to Tailoring form to show
+                   when rules are performed
+
+ Feature  32587    Add rule applicability reference to Manual Questions to
+                   inform users when the rule will be applied
+
+ Feature  32586    Add rule applicability reference to detailed HTML/Text
+                   reports, for rules that have XCCDF platform specification
+                   references
+
+ Feature  32581    Add private 'notes' to hybrid variable format to allow for
+                   end users to provide their own notes for variables
+
+ Feature  32580    Update hybrid variable authorization to be specified per
+                   target, not per rule and in XML format
+
+ Feature  32575    Update non-compliance reports to only show records that
+                   caused the failure (for record type checks such as WMI57,
+                   SQLEXT) 
+
+ Feature  32569    Update reports to highlight indivdiual rows of 'record' type
+                   results to show which rows caused the overall failure
+
+ Feature  32559    Add integrity checking to SQL content to prevent modified
+                   content from running
+
+ Feature  32553    Include updated RHEL8 SCAP content v1.11.7 published on
+                   NIWC's repository on 11/21/2023
+
+ Feature  32552    Add graphical hybrid variable editor (for use currently with
+                   new MS SQL content )
+
+ Feature  32536    Remove SCAP content from UNIX platforms no longer supported
+                   (RHEL6, Ubuntu 16, Solaris 10, Mac OS)
+
+ Feature  32535    Remove remote scanning capabilities for dropped platforms
+                   (RHEL 6, Ubuntu 16, Solaris 10, Mac OS)
+
+ Feature  32533    Remove 32 bit Windows from SCC installers/builds
+
+ Feature  32532    Remove support for 32 bit Windows from remote WMI based
+                   scanning
+
+ Feature  32519    Add documentation for GUI and command line based usage of
+                   Hybrid checks
+
+ Feature  32511    Update Windows content based on DISA's Oct 30, 2023 release
+                   with NIWC Enhanced versions of SCAP content
+
+ Feature  32504    Update new features message to list SQL and Hybrid test
+                   support 
+
+ Feature  32494    Update detailed HTML/Text reports to indicate clearly when
+                   Hybrid data (end user based requirements) are used
+
+ Feature  32493    Enable option in SCC to Cancel scan on XML Digital Signature
+                   Validation Failure
+
+ Feature  32492    Update Tailoring form to show Automated, Hybrid and Manual
+
+ Feature  32488    Update detailed HTML/Text reports to note Hybrid tests vs
+                   Automated or Manual
+
+ Feature  32485    Remove new feature to easily change XCCDF Rule severity and
+                   weight due to conflicts with new Navy SCA guidance
+
+ Feature  32480    Add feature to support 'scope' and 'target' for new hybrid
+                   tests to provide end user answers to specific targets
+
+ Feature  32479    Add feature of "hybrid" checks which take end user provided
+                   answers and use as OVAL state for pass/fail of specific STIG
+                   rules   
+
+ Feature  32469    Add support for SQL Server 2019 and 2022
+
+ Feature  26360    Introduced new debian_evr_string simple datatype. This will
+                   distinguish rpm and dpkg evr values since they use different
+                   algori  
+
+
+
+ SCAP Compliance Checker 5.9 Defects Resolved
+ ===============================================================================
+ Type     IssueID  Summary
+ -------------------------------------------------------------------------------
+ Defect   32619    Fix --createTailoringFile command line parameter
+
+ Defect   32618    Fix error handling when creating tailored profiles for
+                   content which contains values/variables.
+
+ Defect   32617    Run as service fails when SCC's Security Configuration
+                   Directory Options set to Save to Application Directory
+
+ Defect   32597    Improve error handling on content installation to prevent
+                   errors from popping up numerous times when installing many
+                   files   
+
+ Defect   32595    Update WMI Test to report item 'does not exist' instead of
+                   'error' if content defined WMI Class is not found
+
+ Defect   32594    Update WMI57 Test to report item 'does not exist' instead of
+                   'error' if content defined WMI Class is not found
+
+ Defect   32592    Update SFTP directory option needs additional input
+                   validation to prevent injection issues
+
+ Defect   32590    Fix issues with primaryIPAddressPrefix not always correctly
+                   displaying 'primary' IP address first in XML and CKL reports
+
+ Defect   32582    Rules that are marked as
+                   <cdf:result>notapplicable</cdf:result> in xccdf reports not
+                   showing up in html all settings report
+
+ Defect   32564    Update Windows registry probe to support forward slashes '/'
+                   in registry keys
+
+ Defect   32563    Fix SSH remote scanning when /tmp freepspace is in exabytes
+
+ Defect   32556    Add 'lustre' filesystem to list of ignored remote
+                   filesystems
+
+ Defect   32551    Update/recompile SCC's reportviewer application with latest
+                   depenedencies for Linux
+
+ Defect   32546    Update WMI Test to report item 'does not exist' instead of
+                   'error' if content defined namespace is not found
+
+ Defect   32508    Update WMI57 Test to report item 'does not exist' instead of
+                   'error' if content defined namespace is not found
+
+ Defect   32490    Fixed 'type' issues with with selinuxsecuritycontext_test
+
+ Defect   32484    Update external dependencies for libexpat, zlib, perl and
+                   libxml to resolve vulnerability findings
+
+ Defect   32478    When unselecting "Process manual questions if found in SCAP
+                   content", under scanning options, SCC will not process any
+                   results.
+
+ Defect   32476    Update SCC reports to show resolved Record/field variables
+
+ Defect   32475    Update SCC to support multiple database instances with log
+                   files and results per target
+
+ Defect   32472    Add support for var_check on record fields for usage with
+                   OVAL variables
+
+ Defect   32471    ERROR 'ocil:S4Y72647$:artifact:1' does not match
+                   'ocil:[A-Za-z0-9_\-\.]+:artifact:[1-9][0-9]*' when scanning
+                   as a service
+
+ Defect   32468    Improve error log message when CKL files cannot be created,
+                   due to using DISA's content vs NIWC
+
+ Defect   32211    Fix typos in section H.2 in user manual
+
