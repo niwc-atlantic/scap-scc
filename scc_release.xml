@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scc>
+	<version>5.10.2</version>
+	<timeStamp>2025-03-26T11:00:00</timeStamp>
+	<releaseInfo>
+- For All Platforms -
+-- Updated SCAP content based on NIWC content for DISA Q1 2025 release of STIG manuals
+-- Updated internal dependencies
+-- Fixed several minor issues, see release notes for details.
+
+- For Windows - 
+-- Added support for Windows user test attributes of 'full_name', 'comment' and 'password_age'
+
+- For Linux - 
+-- Added NIWC Enhanced DISA STIG content for Ubuntu 22.04
+
+- For Solaris - 
+-- N/A
+</releaseInfo>
+	<url>https://public.cyber.mil/stigs/scap/</url>
+</scc>
