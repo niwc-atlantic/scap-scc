@@ -1,0 +1,282 @@
+####### SCC_5.5 Check Sums ######
+
+ ========== SCC_5.5_Windows ========= 
+scc-5.5_Windows_bundle.zip
+SHA256:  7C0EE3846B1E314B587C8C99C2794D63833B0D2B28CE6D3C579D3754DDD80F0E
+
+SCC_5.5_Windows_Setup.exe
+SHA256:  FF2871E0CBD9FCA772408F7672F96CA2275C1B88B5D23B614CFF0BF807162C84
+
+scc-5.5_Windows.zip
+SHA256:  deca6ebc6ff6dd3d07f41f117abdcbddf78d3a0525e901176c017772597c05e9
+
+scc.exe
+SHA256:  8c670094d70cd36c09fa5465131869ec5e66443087865113ca60edf26040c140
+
+cscc.exe
+SHA256:  7c0dd9a795b98beb253f64e1803e32b8eaa864d432076dce8ff574ce0d73292c
+
+SCC_Service32.exe
+SHA256: 89747a35fc385ae47c7a41dfc08d3454333e4020c75c5c84d35589a67242f75a
+
+
+ ========== SCC_5.5_macosx10_x86_64 ========= 
+scc-5.5_macosx10_x86_64_bundle.zip
+SHA256:  8d77d58b677af5634d2f97dad91ba409bb2731a60486d58e2563c68dac5aa235
+
+scc-5.5_macosx10_x86_64.tar.gz
+SHA256:  f934249c8280169166c6a636b1722003c466ee56a26b1f9dd530ca2faa1a5979
+
+cscc
+SHA256:  2ad446f9db33fb5e6aa8bca977bd025bd0ee7001db60a1c5445cb4218cdd3196
+
+scc
+SHA256:  2ad446f9db33fb5e6aa8bca977bd025bd0ee7001db60a1c5445cb4218cdd3196
+
+
+ ========== SCC_5.5_raspbian11_armv7l-32 ========= 
+scc-5.5_raspbian11_armv7l-32_bundle.zip
+SHA256:  4d8bcaf153f795ab3a4f3572a9e25ef28ec5158a79fe72c15f4b545374ef8ff2
+
+scc-5.5.raspbian.11_armhf.deb
+SHA256:  8430a53a0afd20f8a9d7ff43bb220df3b01880187e853fbe5af9baf68b529e3a
+
+scc-5.5_raspbian11_armv7l.tar.gz
+SHA256:  7ed8080d74f3549e4afc23db5f0e8014a71089059e1810aace67b454e82b4700
+
+cscc
+SHA256:  cce9231d52e913be5cec05b2e35ed3ae3229fedaa8b16a81620fa56590a4dfca
+
+scc
+SHA256:  cce9231d52e913be5cec05b2e35ed3ae3229fedaa8b16a81620fa56590a4dfca
+
+
+ ========== SCC_5.5_raspbian8_armv7l ========= 
+scc-5.5_raspbian8_armv7l-32_bundle.zip
+SHA256:  efc15903a99b29202d30d870c61790ffc64198f3c1a75f403069a67dbadf88c0
+
+scc-5.5.raspbian.8_armhf.deb
+SHA256:  53e7e788737b8d9a8224c96b9fbe6a96752003c42289776a59228db3d65ab476
+
+scc-5.5_raspbian8_armv7l.tar.gz
+SHA256:  829ac546554d32428ce1e6bd1c7c99065332a89c430e5c461f9549a04a941ca2
+
+cscc
+SHA256:  d5f486029da80696bd1e61e5d0d1b9accd4d386de238a5ec889aaf8699d72de1
+
+scc
+SHA256:  d5f486029da80696bd1e61e5d0d1b9accd4d386de238a5ec889aaf8699d72de1
+
+
+ ========== SCC_5.5_rhel6_i686 ========= 
+scc-5.5_rhel6_i686_bundle.zip
+SHA256:  4f1c26f34ae9a69926388782d39d84cba0b1284702fa52f76d59bf6f18af8d8a
+
+scc-5.5.rhel6.i686.rpm
+SHA256:  86aba763522b71d8ddec364270b2d907582e5365ba34063306d184f3f1f1d6de
+
+scc-5.5_rhel6_i686.tar.gz
+SHA256:  c99d7c01c203e4ac4f92845533bcbffa3314d4aad98bed643baade72dc95af95
+
+cscc
+SHA256:  3ff6bfa964d252fd8a2eb6a33aa39ab289b4060e4503740e85f5ed729d46210d
+
+scc
+SHA256:  3ff6bfa964d252fd8a2eb6a33aa39ab289b4060e4503740e85f5ed729d46210d
+
+
+ ========== SCC_5.5_rhel6_x86_64 ========= 
+scc-5.5_rhel6_x86_64_bundle.zip
+SHA256:  57fd807271589230886638d41bc7510e3c4ed6c2152d441e68ab33afeaa71f86
+
+scc-5.5.rhel6.x86_64.rpm
+SHA256:  6ae5cb9b6cc95562d8cc50bc3002d429ba550c332cf69886ea4955748fada279
+
+scc-5.5_rhel6_x86_64.tar.gz
+SHA256:  3f45adb7459edeedc9ee363c58746381b17e6104832d6d76879ab2d8b56d6f0f
+
+cscc
+SHA256:  caaa233141477b89b893d53239099e6466c13166a0841840a0ccdf2b06a1668b
+
+scc
+SHA256:  caaa233141477b89b893d53239099e6466c13166a0841840a0ccdf2b06a1668b
+
+
+ ========== SCC_5.5_rhel7_sles12-15_oracle-linux7_x86_64 ========= 
+scc-5.5_rhel7_sles12-15_oracle-linux7_x86_64_bundle.zip
+SHA256:  2e50721fa31233862b74ff8f9d7ddaf81f4821551c820d3120759e88e80413b2
+
+scc-5.5.rhel7.x86_64.rpm
+SHA256:  f094012042fe20144fe931549b96a9287269189d815816ecb9cffadb579b8121
+
+scc-5.5_rhel7_x86_64.tar.gz
+SHA256:  9b28765b789420250286ed77fe2d0fc1c493730653ee327baa21bb09bcd0ae60
+
+cscc
+SHA256:  7322ea5355d8dc39ad1684a0f61a7c9d441d91d3673b6c976bb24872fc0bf82f
+
+scc
+SHA256:  7322ea5355d8dc39ad1684a0f61a7c9d441d91d3673b6c976bb24872fc0bf82f
+
+
+ ========== SCC_5.5_rhel8_oracle-linux8_aarch64 ========= 
+scc-5.5_rhel8_oracle-linux8_aarch64_bundle.zip
+SHA256:  c85e0a39c445efcecba42d28250b3518ef9866d90e49bfd3e127182ddcba100a
+
+scc-5.5.rhel8.aarch64.rpm
+SHA256:  a7d7d43476c083f805ddf5b4be6e6dc304196f62713663f48517811eadd17897
+
+scc-5.5_rhel8_aarch64.tar.gz
+SHA256:  9303735c5f732aceb360606e817552c0c90403c57d176fadf565b7e1d1fe4eda
+
+cscc
+SHA256:  033310f0d3ad2c32b52aec9d54ac0164d6d033beb7db81a38e8edc3d783281fb
+
+scc
+SHA256:  033310f0d3ad2c32b52aec9d54ac0164d6d033beb7db81a38e8edc3d783281fb
+
+
+ ========== SCC_5.5_rhel8_oracle-linux8_x86_64 ========= 
+scc-5.5_rhel8_oracle-linux8_x86_64_bundle.zip
+SHA256:  cbb26f03134c3ed0df6b0c0e9746826c49590eac5720423d216af0998b02ec68
+
+scc-5.5.rhel8.x86_64.rpm
+SHA256:  329313516faa96a98953ab62b2ea2ff87a3fd29c1b6c411a2f4852a6aa124773
+
+scc-5.5_rhel8_x86_64.tar.gz
+SHA256:  d9f41e4fdf6e93ee8a1a0855e7fc7eb59e43b2ab61e67509afb64129dfda089c
+
+cscc
+SHA256:  a2285e56849891af89fd10f2b71a7115f4256c44d53073042eb42e9eb966dd18
+
+scc
+SHA256:  a2285e56849891af89fd10f2b71a7115f4256c44d53073042eb42e9eb966dd18
+
+
+ ========== SCC_5.5_solaris10_i386 ========= 
+scc-5.5_solaris10_i386_bundle.zip
+SHA256:  e18a1349471de994ae16c093eb4e8c5e7ccfb433ab7814ae9d0fe73c3034891a
+
+scc-5.5-solaris10-i386.gz
+SHA256:  e372d269c527b51f3d38b2e7648d1d771c10cf495b591c4b3110faff40f4b9a1
+
+scc-5.5_solaris10_i386.tar.gz
+SHA256:  f2fccf120b973b4101d6a4c53378c92cba78cd6c6d78bc2ec0170679756741ed
+
+cscc
+SHA256:  fc771a5d3d9097c40dab7e1227ce0aa9d6e2a78046dea75cc36a0c7d67ddb746
+
+
+ ========== SCC_5.5_solaris10_sparc ========= 
+scc-5.5_solaris10_sparc_bundle.zip
+SHA256:  e9d7b0a6b8573d6aab233bbc2bfc3807fe0b31ba3964cd79f4a4c4a966b734ad
+
+scc-5.5-solaris10-sparc.gz
+SHA256:  0ff9f99e8eceaf97c0771b129a768b3bdc4ac90048ab101650bee102f24c3b21
+
+scc-5.5_solaris10_sparc.tar.gz
+SHA256:  5f86e2ae7e9047c06b8842df113822466d49ef7d6bf04007ed728f9d75277e7f
+
+cscc
+SHA256:  9714ef1ea35f3610e71f1b86e69d07ff8555a2953404aa4370beb6dae9517e32
+
+
+ ========== SCC_5.5_solaris11_i386 ========= 
+scc-5.5_solaris11_i386_bundle.zip
+SHA256:  2836fdc5974e5f8bf75d3e895a591de3b3e25a824ed04bca3d1f037210615417
+
+scc-5.5-solaris11-i386.gz
+SHA256:  7ed68a91fff8f90dc480e33acd2ee17d8bbe8f9d63e626aad07686f2eb6fefa5
+
+scc-5.5_solaris11_i386.tar.gz
+SHA256:  23714f687e45e6a4b596d6faa6b69b0d0a40c13561f338cd440df4e5bb73a6ce
+
+cscc
+SHA256:  07443bcf9c58243cbf91bccd208369e7947280d5b64cd3b7d95071eb78abd2d7
+
+
+ ========== SCC_5.5_solaris11_sparc ========= 
+scc-5.5_solaris11_sparc_bundle.zip
+SHA256:  81e35cc96d5ebe0eee0aff7eec395b5f3a00ef9a3724c6bfb9575e8252ff001f
+
+scc-5.5-solaris11-sparc.gz
+SHA256:  1d23b232e69566a61b94c3e87c26287a7b6d9393e26c89f62721d0e0bec6172d
+
+scc-5.5_solaris11_sparc.tar.gz
+SHA256:  8ff344a93e1d779535dc4f0e6d84024e9d46f7d4091b17e0d78c57d7231c6ddc
+
+cscc
+SHA256:  0b86ee850177919fac24bd31a46bc9bdc71394be37f085806c22a95c6a61044b
+
+
+ ========== SCC_5.5_ubuntu16_amd64 ========= 
+scc-5.5_ubuntu16_amd64_bundle.zip
+SHA256:  fd3376b0504129a5e81ebfb49090c758310ea1103e56d31e0abf17992cbbc66d
+
+scc-5.5.ubuntu.16_amd64.deb
+SHA256:  18bf7e72a659049ec8bb44f9dcd7f4e416d4e53336b128c2c7194ed82944aacf
+
+scc-5.5_ubuntu16_amd64.tar.gz
+SHA256:  9408b3a816f4042da77a4655a4734062dfacaeeaa55f1506b89acc05d37ca1d9
+
+cscc
+SHA256:  2890ad3dc4cca21d4cceb1edfad70e7b2f231dde528f8116d5fb02e1437479cc
+
+scc
+SHA256:  2890ad3dc4cca21d4cceb1edfad70e7b2f231dde528f8116d5fb02e1437479cc
+
+
+ ========== SCC_5.5_ubuntu16_i686 ========= 
+scc-5.5_ubuntu16_i686_bundle.zip
+SHA256:  83fb7771181bcba796e8598cd310adf35fa19dfef159e4d4cf4212f5e596dc8e
+
+scc-5.5.ubuntu.16_i386.deb
+SHA256:  2886a13181e20aeaf9bf418ea4b10a95e69d75c11a7851b75891856a21a48993
+
+scc-5.5_ubuntu16_i686.tar.gz
+SHA256:  70013ea7a58f89e7cb6cebf9c4de7a720e791d58fa2b0ae1f17a2b69a523afd0
+
+cscc
+SHA256:  8cd376b22d7ede3e5b9180249ffea8c9b4855e756d66d15e20fa97394103ce10
+
+scc
+SHA256:  8cd376b22d7ede3e5b9180249ffea8c9b4855e756d66d15e20fa97394103ce10
+
+
+ ========== SCC_5.5_ubuntu18_ubuntu_20_amd64 ========= 
+scc-5.5_ubuntu18_ubuntu20_amd64_bundle.zip
+SHA256:  b61742698a60eb54e5051195885490b113caf1d0879bf9e51cad35d5ffd19b16
+
+scc-5.5.ubuntu.18_amd64.deb
+SHA256:  5129297d76747a51a604bef7366c57323d4932658da1853d8520bc4b5a052f4a
+
+scc-5.5_ubuntu18_amd64.tar.gz
+SHA256:  4ef7708b77331fa9888f51040a6f131c4ffd9c2318d6d2d5317649d61e302be4
+
+cscc
+SHA256:  3ba941c255cb79fb61b58b7e67c0e50b6ea8c242bb7adf769f30acde5a14deb5
+
+scc
+SHA256:  3ba941c255cb79fb61b58b7e67c0e50b6ea8c242bb7adf769f30acde5a14deb5
+
+
+ ========== SCC_5.5_ubuntu20_arm64 ========= 
+scc-5.5_ubuntu20_raspios-bullseye_arm64_bundle.zip
+SHA256:  ee9a764a119727805ba54048f065ee52bbdd059d0b6c0851f07f21fb4abc9c91
+
+scc-5.5.ubuntu.20_arm64.deb
+SHA256:  be32fba6c8eaaad90c2ce89091724112246ee0a2ddd96b63cf9232cdfafa8cea
+
+scc-5.5_ubuntu20_arm64.tar.gz
+SHA256:  fd6b5a212180f92434d1645afe34127bba43606a509c4b588641c86532a141e1
+
+cscc
+SHA256:  2cb3403b90b4ac5591ef03c6a52ccc142f91ebbbaf3007f21c95079f5db1635f
+
+scc
+SHA256:  2cb3403b90b4ac5591ef03c6a52ccc142f91ebbbaf3007f21c95079f5db1635f
+
+
+SCC_5.5_UNIX_Remote_Scanning_Plugin.scc
+SHA_256:  0c5af0388f8fb3a5268510f90c18d56f71848fe39892a0c3bd19886ac86ce7de
+

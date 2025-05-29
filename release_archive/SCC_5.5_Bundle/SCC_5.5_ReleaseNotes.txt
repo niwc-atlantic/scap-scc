@@ -1,0 +1,295 @@
+ Distribution A: Approved for Public Release (16 Feb 2021) NIWCLANT SPR# 2021-52
+
+ SCAP Compliance Checker Release Notes                   Jun 03, 2022   13:13:55
+ Naval Information Warfare Center (NIWC) Atlantic
+ https://www.niwcatlantic.navy.mil/scap/
+
+
+ SCAP Compliance Checker 5.5 Features Added
+ ===============================================================================
+ Type     IssueID  Summary
+ -------------------------------------------------------------------------------
+ Feature  31735    Update Windows SCAP content with DISA's May 2022 releases
+
+ Feature  31727    Update Windows remote host file creation to multi-thread
+                   NSLookups and Pings for faster host file creation
+
+ Feature  31719    Add collected item/state result (true/false/error/not
+                   evaluated) to HTML/Text reports for each collected item
+
+ Feature  31705    Add DISA SCAP content for Oracle Linux 8
+
+ Feature  31698    Add option to include DNS Domain as part of SCC report names
+                   to prevent issues with duplicate hostnames in different DNS
+                   Domains 
+
+ Feature  31695    Update remote SSH based scanning for Ubuntu 20 arm64 to use
+                   ubuntu binary not rhel8/aarch64
+
+ Feature  31694    Add remote scanning support for Raspberry Pi OS 11, 32 bit
+                   (armvh) and 64 bit (arm64)
+
+ Feature  31665    Update DISA SCAP content to April 2022 releases
+
+ Feature  31642    Update DISA Control Correlation Identifier (CCI) mappings to
+                   05 Apr 2022 which include NIST 800-53 REV 5 mappings
+
+ Feature  31582    Add OVAL content validation for state comparisons, verifying
+                   applicable operations for each datatype
+
+ Feature  31501    Add DISA STIG SCAP content for Ubuntu 20.04
+
+ Feature  31454    Add DISA STIG SCAP Benchmark for SUSE Enterprise Linux 15
+
+ Feature  31435    Update DISA content to January 2022 quarterly release
+
+ Feature  31427    Add report viewer support for aarch64 and arm64 linux
+                   versions of SCC
+
+ Feature  31396    Update DISA STIG Benchmarks for December 2021
+
+ Feature  31390    Update cscc.exe on Windows to support configuration and
+                   SSH/Cisco scanning as non-admin user
+
+ Feature  31381    Improve error handling when remote cscc errors during
+                   application launcher
+
+ Feature  31379    Add support for Windows 11 and Windows Server 2022
+
+ Feature  31376    Update --help to have optional parameter to display one or
+                   more help sections
+
+ Feature  31374    Add NIST SCAP 1.3 content for Mac OS 12
+
+ Feature  31373    Update NIST SCAP content for Mac OS 10.5 and 11.0
+
+ Feature  31367    Update --listBenchmarks command line parameter to also print
+                   Enabled/Disabled status for each
+
+ Feature  31356    Update SFTP transfer of SCC results to include entire scan
+                   session for SSH/WMI based scans
+
+ Feature  31355    Add ARM64 based Debian/Ubuntu build
+
+ Feature  31351    Replace existing command line menu system for selecting an
+                   XCCDF Tailoring file with simple and automatable command
+                   line    
+
+ Feature  31321    Add Title and Description to XCCDF Tailoring "Values"
+
+ Feature  31316    Improve error handling when remote cscc errors during
+                   application launcher
+
+ Feature  31309    Update cscc --help to have platform specific examples
+
+ Feature  31306    Add human readable command line arguments to older existing
+                   abbreviated commands such as -is updated to -is OR
+                   --installSCAP
+
+ Feature  31296    Add remote SSH scanning support for amd64 and arm64 based
+                   Ubuntu 20
+
+ Feature  31288    Redesign SFTP report transfer to use same design as SSH
+                   based scanning
+
+ Feature  31277    Add command line --installCredentialDB to allow installing
+                   an existing credential DB from a system that supports the
+                   SCC GUI 
+
+ Feature  31274    Add command line --installUnixPlugin to install SSH scanning
+                   plugin  
+
+ Feature  31268    Improve error handling for remote SSH scans to report a
+                   warning if remote application fails to start, and fapolicyd
+                   is running
+
+ Feature  31266    Add support for arm64 based Debian/Ubuntu with a .deb
+                   package 
+
+ Feature  31264    Add remote SSH scanning support for aarch64 based
+                   RHEL/Oracle Linux 8/SUSE 15
+
+ Feature  31258    Add SSH scanning option to automatically add temporary
+                   version of SCC to remote linux host app white list via
+                   fapolicy-cli
+
+ Feature  31246    Add indicator of existing artifact to OCIL form for easier
+                   editing after the initial entry
+
+ Feature  31221    Add AND/OR action operators visible on OCIL questionare tree
+
+ Feature  31218    Add user answer to the OCIL tree for easier
+                   viewing/reviewing
+
+ Feature  31217    Add questionnaire result (pass/fail/error etc..) and related
+                   pass/fail icon to questionnaire on the OCIL tree
+
+ Feature  31210    Improve overall layout and design of OCIL form
+
+ Feature  31171    Update SCC internal libxml2 dependency to version 2.9.11
+
+ Feature  31163    Add command line --ssh to start SSH based UNIX/Cisco scans
+                   (although GUI is still requires for host/credential
+                   management)
+
+ Feature  31106    Add DISA SCAP 1.3 Benchmarks for Cisco IOS-XE Routers
+
+ Feature  31104    Update NIST SCAP content for Mac OS X 10.15 and 11
+
+ Feature  31070    Redesign OCIL GUI for managing sessions and targets
+
+ Feature  31049    Add link to SCC tutorial videos via Help -> About page
+
+ Feature  31048    Update Windows scc.exe to use UAC of highestAvailable to
+                   allow for remote UNIX and Cisco scans when not a Windows
+                   Administrator
+
+ Feature  31036    Remove proprietary support for Deviations in SCC
+                   application, replaced by SCAP standard XCCDF Tailoring
+
+ Feature  31035    Remove support for Unlocker application, replaced by SCAP
+                   standard XCCDF Tailoring
+
+ Feature  30925    Update SCC on Windows to support running as
+                   non-Administrator, for performing remote UNIX SSH based
+                   scans, and Cisco scans.
+
+ Feature  30901    Update Tailoring to show rule title (if present) instead of
+                   rule ID 
+
+ Feature  30900    Update Tailoring to show how values relate to rules
+
+ Feature  30776    Add command line arguments to enable/disable a benchmark
+                   (--enableBenchmark, -ea, --disableBenchmark, -da)
+
+ Feature  30301    Redesign Windows userright OVAL probe to use database
+                   backend 
+
+
+
+ SCAP Compliance Checker 5.5 Defects Resolved
+ ===============================================================================
+ Type     IssueID  Summary
+ -------------------------------------------------------------------------------
+ Defect   31736    Update May 2022 Windows content from DISA to perform case
+                   insensitive filepath, path and filename operations
+
+ Defect   31689    Fix issues with SSH remote scanning, with Insufficient Free
+                   Space Errors Due to "password expires in" message being
+                   returned
+
+ Defect   31592    Windows File Test populates item entities with blank string
+                   if no data available or collected
+
+ Defect   31564    winGroupSid Test with Check Existence equal to one or more
+                   must exist and state existence of all_exist causes FAILURE
+
+ Defect   31561    HTML report not showing entire item for winNtuser
+                   reg_multi_sz
+
+ Defect   31552    Windows File Test does not include 'attribute' element
+
+ Defect   31536    winSid_rule_5 fails when a pass is expected
+
+ Defect   31535    SCAP 1.3 validation content:
+                   winFileEffectiveRights53_rule_103 fails when expected result
+                   is pass 
+
+ Defect   31534    Deprecated SCAP 1.0 windows 'auditeventpolicy' does not
+                   collect any items
+
+ Defect   31532    winCmdlet_rule_1 fails when a pass is expected
+
+ Defect   31531    Fix Windows OVAL license test to work on Windows 10 and
+                   later   
+
+ Defect   31529    "Test the user_device_claims entity with equals operation"
+                   test returning unknown
+
+ Defect   31513    Windows Cmdlet Probe Module Version Logic fails to evaluate
+                   version comparison causing no created items
+
+ Defect   31463    Update valid filepath to allow for $ special character in
+                   filepath on Windows
+
+ Defect   31453    Fix issues with unix file searching that can result in
+                   incomplete results depending on search order and symlinks to
+                   file    
+
+ Defect   31432    Remove outdated DISA STIG V5 Mozilla Firefox benchmarks for
+                   Windows/RHEL, to be replaced in the future with V6
+                   benchmarks
+
+ Defect   31431    Fix GUI issues on Rasbian linux with 5.4.2 with libpng
+
+ Defect   31412    Fix issues with scanning autofs mount points on RHEL8
+
+ Defect   31404    Built-In Administrator and Guest Account User_sid tests
+                   report each account member of group SID "None"
+
+ Defect   31395    UnixFileTest Probe Is Not Handling Symlinks Correctly
+
+ Defect   31360    Fix case issues with the OVAL environmentVariable58 test
+
+ Defect   31354    Disable OVAL processing option for item threshold by default
+                   due to potential false positives on errors
+
+ Defect   31347    Fix XCCDF Tailoring issues loading disable groups in
+                   selected rule, not cascading delete down to rules
+
+ Defect   31342    Fix issues loading/saving XCCDF Tailoring refine-value
+                   'operator' field.
+
+ Defect   31331    Fix application crash when creating prose reports from SCAP
+                   1.3 validation content
+
+ Defect   31326    Fix issues with Windows WMI test if content string or
+                   username contains an apostrophe
+
+ Defect   31319    Cleanup and simplify the XCCDF Tailoring Form
+
+ Defect   31305    Freespace Check Also Returns "Last Login" Occasionally
+
+ Defect   31298    Fix SSH hostfile import to not always set OS to SCC
+                   Autodetect
+
+ Defect   31290    Automatic Detection of Remote OS Failing on Some RHEL7
+                   Systems 
+
+ Defect   31286    Update "SSH Options" to be "SFTP Options" and change SFTP
+                   icon to prevent any confusion with SSH based remote scanning
+
+ Defect   31279    Windows Launcher Tries to Launch
+                   `C:\Users\username\Windows\System32\cmd.exe`
+
+ Defect   31278    Update SFTP and SSH usernames to support
+                   'username@fully.qualified.domain' format along with
+                   'username'
+
+ Defect   31216    Update debug to screen to include logger level, and not
+                   print TRACE level debug unless it's enabled
+
+ Defect   31207    Update error handling with invalid enumeration types in
+                   registry probe
+
+ Defect   31193    User Getting SID Errors Due to Apostrophe in Username
+
+ Defect   31095    Update Windows content from DISA to perform case insensitive
+                   filepath, path and filename operations
+
+ Defect   31064    Fix crash when trying to run OCIL from CD-ROM
+
+ Defect   31054    Remove genopts-file.txt from Windows install zip
+
+ Defect   31006    UnixFileTest Probe Is Not Handling Symlinks Correctly
+
+ Defect   30936    Verify SCC support for Ubuntu 20.04
+
+ Defect   30890    Update SFTP to not orphan temp files if SFTP fails
+
+ Defect   30447    Update oval item processing to support state entity
+                   check_existence
+
+ Defect   29736    WMI Scan notes invalid host name but still allows the scan
+                   to continue.
+

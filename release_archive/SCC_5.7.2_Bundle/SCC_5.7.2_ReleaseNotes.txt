@@ -1,0 +1,364 @@
+ Distribution A: Approved for Public Release (16 Feb 2021) NIWCLANT SPR# 2021-52
+
+ SCAP Compliance Checker Release Notes                   Jun 06, 2023   12:42:32
+ Naval Information Warfare Center (NIWC) Atlantic
+ https://www.niwcatlantic.navy.mil/scap/
+
+
+ SCAP Compliance Checker 5.7.2 Features Added
+ ===============================================================================
+ Type     IssueID  Summary
+ -------------------------------------------------------------------------------
+ Feature  32367    Add NIWC developed SCAP content updated in May 2023 to SCC
+                   installer (IIS 8.5, 10.0, Office 365, OneDrive)
+
+ Feature  32358    Add "Automated/Manual" grouping to SCC reports, when sorting
+                   by severity
+
+ Feature  32356    Include NIWC Enhanced versions of DISA SCAP Benchmarks from
+                   April/May 2023
+
+ Feature  32344    Add GUI/CLUI option to create a single CKL file per host
+                   target scan session, containing multiple benchmark results
+                   from a scan
+
+ Feature  32325    Improve remote WMI/SSH error handling to catch remote SCC
+                   crash data without needing to have debug enabled
+
+ Feature  32318    Update Windows upgrade function to find installations of
+                   5.7.1 and upgrade from it
+
+ Feature  32314    Add content scan duration in HH::MM::SS format to all scan
+                   reports (HTML/Text)
+
+
+
+ SCAP Compliance Checker 5.7.2 Defects Resolved
+ ===============================================================================
+ Type     IssueID  Summary
+ -------------------------------------------------------------------------------
+ Defect   32364    Add error handling on backing up autoanswer files
+
+ Defect   32362    Add warnings if manual questions rule results are unable to
+                   be upgraded due to changes in the STIG Manual
+
+ Defect   32361    Fix buttons in SCC's HTML report viewer on Windows to enable
+                   Back/Forward/Reload buttons
+
+ Defect   32359    Fix hyperlinks in all HTML reports for "Results" & "Detailed
+                   Results"
+
+ Defect   32339    Fix restricted ACL for new Checklist report, which was
+                   always restricting permissions, even if disabled.
+
+ Defect   32336    ApplicationLog directory does not get updated if changing
+                   custom directory and the performing a local scan
+
+ Defect   32322    Fix Windows OVAL results to support both ipv4 and ipv6
+                   addresses on the same network interface
+
+ Defect   32321    Fix XCCDF results to support both ipv4 and ipv6 addresses on
+                   the same network interface
+
+ Defect   32320    Update Windows hostlist generation to support nslookups of
+                   IPV6 only systems
+
+ Defect   32316    Use of uninitialized value $o in scalar chomp at
+                   bin/System/Agnostic/SSH.pm line 346.
+
+ Defect   32312    Update Windows remote scanning to only perform DNS lookups
+                   if WMI alt-credentials are enabled
+
+ Defect   32311    Update manual question processing to occur on SSH/WMI
+                   targets, not locally before scan starts
+
+ Defect   32309    Fix application crash when scanning via WMI if large numbers
+                   of systems are offline
+
+ Defect   32307    Update error handling of reading host file via arrays to not
+                   prevent application launch
+
+ Defect   32294    Fix IPV6 DNS name resolution on SSH scanning of
+                   Linux/Solaris targets when scanning by DNS FQDN
+
+ Defect   32238    Update Windows host file generation to be by DNS FQDN if
+                   selecting alternate domain controller with alternate WMI
+                   credentials
+
+ Defect   32228    Fix issues scanning remote Windows computers by IP Address
+                   when DNS name resolution fails
+
+ 
+
+
+ SCAP Compliance Checker 5.7.1 Features Added
+ ===============================================================================
+ Type     IssueID  Summary
+ -------------------------------------------------------------------------------
+ Feature  32293    Update funding request messages in SCC GUI/CLUI and User
+                   Manual  
+
+ Feature  32292    Add the CKL checklist to the Summary Viewer HMTL report
+
+ Feature  32277    Add option to SCC Option (GUI only) to enable/disable new
+                   Manual Question backup feature
+
+ Feature  32276    Add automatic datetime/username backups of manual question
+                   answer files to track changes and allow for manual recovery
+                   if needed
+
+ Feature  32265    Add RPM and DEB upgrade documentation to SCC installation
+                   portions of the user manual
+
+ Feature  32262    Improve readability of HTML detailed reports to convert line
+                   feeds to html <br> code
+
+ Feature  32261    Update documentation for 5.7.1
+
+ Feature  32255    Update manual question autoanswer templates to have question
+                   counters, and end of question X
+
+ Feature  32242    Convert Manual Question "Comments" into CKL "Comments"
+
+ Feature  32223    Automatically upgrade existing Manual Question results from
+                   older versions of content to current
+
+ Feature  32222    Update upgrade on Windows to also include completed manual
+                   questions results from SCC 5.7 install if found
+
+ Feature  32219    Improve Manual Question interface for easier use and
+                   viewing, adding searching and sorting
+
+
+
+ SCAP Compliance Checker 5.7.1 Defects Resolved
+ ===============================================================================
+ Type     IssueID  Summary
+ -------------------------------------------------------------------------------
+ Defect   32290    Fix Windows WMI remote scanning to support IPV6 based
+                   targets 
+
+ Defect   32287    Fix issues with Manual Questions and remote Windows scanning
+                   by IP Address
+
+ Defect   32274    Fix upgrade issue if current options file is in user home
+                   directory, and upgrading from one that's a shared file
+
+ Defect   32273    Update SCC upgrade feature to warn user if selected file is
+                   not currently the active options file (Command line only)
+
+ Defect   32272    Update SCC upgrade feature to prompt if options file
+                   provided is not the active file used (GUI only)
+
+ Defect   32271    Add more info on Windows ports/protocols to user manual
+
+ Defect   32268    Fix debian packages to not delete SCC's Resources directory
+                   on install, as it breaks upgrading manual question results
+
+ Defect   32246    Research Check_Content differences in CKL between STIG
+                   Viewer and SCC
+
+ Defect   32244    Research Check_Content_Ref difference between STIG Viewer
+                   and SCC 
+
+ Defect   32239    Update CKL STIG_INFO section to exactly match the STIG
+                   Manual, and output from STIG Viewer
+
+ Defect   32237    Fix WMI alt credentials to allow subdomain credentials
+
+ Defect   32232    Prevent the creation of XCCDF Results = "notchecked" for
+                   Manual Questions, if Manual Question processing is disabled.
+
+ Defect   32231    Disable creating CKL reports if option to process Manual
+                   Questions /OCIL is disabled
+
+ Defect   32224    SCC GUI crashing on linux when screen resolution is 1024 x
+                   768     
+
+ Defect   32217    Add STIG Manual Rule Title to manual question autoanswer
+                   text files
+
+ Defect   32214    13:48:07 ERROR "Could not determine NetworkCards for
+                   'LOCALHOST'." from SysInfo found in SysInfo (201).
+
+ Defect   32170    PowerShell executable not found when attempting a Windows
+                   Classic remote scan containing cmdlet tests
+
+ 
+
+
+ SCAP Compliance Checker 5.7 Features Added
+ ===============================================================================
+ Type     IssueID  Summary
+ -------------------------------------------------------------------------------
+ Feature  32205    Display warning popup if Manual Question result files are
+                   not found for enabled Enhanced Content
+
+ Feature  32189    Replace status 'date' field on SCAP content list with
+                   content publisher
+
+ Feature  32172    Add XCCDF front-matter to SCC reports to information on
+                   number of manual checks in NIWC enhanced content
+
+ Feature  32146    Create NWIC enhanced content for Windows 2022 STIG Benchmark
+
+ Feature  32144    Add periodic GUI and CLUI notifications about crowdfunding
+                   of SCC going forward
+
+ Feature  32122    Update HTML and Text reports to prepend STIG VUL ID to XCCDF
+                   Rule Titles
+
+ Feature  32120    Update HTML and Text reports to display rules that are
+                   'notchecked' to show unanswered Manual Questions
+
+ Feature  32119    Update HTML and Text reports to use Benchmark Title instead
+                   of DatastreamID in report header
+
+ Feature  32112    Add NIWC developed SCAP content for IIS 10.0 Site and Server
+                   to SCC installation
+
+ Feature  32111    Add NIWC developed SCAP content for Microsoft Office 365
+
+ Feature  32108    Update warning on missing manual question files to appear at
+                   the end of the scan
+
+ Feature  32105    Add feature to sort HTML/Text reports by severity (DISA CAT
+                   I, CAT II)
+
+ Feature  32096    Add NIWC developed SCAP content for Microsoft OneDrive SCC
+                   installation
+
+ Feature  32094    Add NIWC developed SCAP content for IIS 8.5 Site and Server
+                   to SCC installation
+
+ Feature  32093    Include updated Dec 2022 NIST SCAP content for Mac OS from
+                   https://github.com/usnistgov/macos_security/releases
+
+ Feature  32091    Update SCC's default SCAP content repository from DISA's to
+                   NIWC's manual question enhanced content
+
+ Feature  32090    Add option to ignore SSL certificate validation errors,
+                   required for offline, self-signed websites
+
+ Feature  32078    Update DISA STIG "Enhanced" content to latest published on
+                   https://www.niwcatlantic.navy.mil/scap/scap-content-repository/
+
+ Feature  32069    Add GUI Popup and cscc --config text message regarding new
+                   'Manual Questions' and CKL features
+
+ Feature  32059    Replace all DISA STIG SCAP content with NIWC generated SCAP
+                   content with STIG Manual converted to OCIL Checklists
+
+ Feature  32047    Add SCC options upgrade prompt on Windows if SCC 5.6, 5.5 or
+                   5.4.2 is found installed via GUI and cscc --config
+
+ Feature  32041    Add DISA SCAP content for Windows 11
+
+ Feature  32035    Add feature to SCC Options to regenerate manual question
+                   autoanswer templates
+
+ Feature  32027    Add Option to specify OCIL Manual Question Autoanswer
+                   completed files directory
+
+ Feature  32022    Update SCC GUI to read/update OCIL Auto-answer files via
+                   "Manual Questions" button in "Content Details"
+
+ Feature  32000    Add new command line configuration parameter
+                   --generateAutoAnswerTemplates to regenerate all auto answer
+                   templates
+
+ Feature  31998    Add option to sort OCIL questionnaires based on DISA CAT
+                   levels from XCCDF (CAT I, CAT II, CAT III)
+
+ Feature  31979    Add command line auto-answer file for OCIL questionnaires
+                   for answering STIG Manual items not automated in SCAP
+
+ Feature  31977    Increase size of SCAP Content "Title" field to show full
+                   title, including new OCIL Enhanced info
+
+ Feature  31955    Update layout of OCIL form to better accommodate DISA STIG
+                   Manual based OCIL content
+
+ Feature  31953    Add XML schema validation to CKL results
+
+ Feature  31946    Update SCC Scan Session Viewer to support DISA Checklist CKL
+                   results 
+
+ Feature  31943    Add option to SCC GUI and CSCC config to enable/disable new
+                   DISA Checklist CKL report
+
+ Feature  31940    Add link to SCC survey to SCC GUI and SCC User Manual
+
+ Feature  31937    Update DISA STIG SCAP Benchmarks for October 2022 releases
+
+ Feature  31936    Update XCCDF 1.2 results to create human readable version of
+                   what passed or failed from OCIL results
+
+ Feature  31934    Add SCC option to define a maximum OVAL collected items to
+                   be included in XCCDF results as part of human readable
+                   messages
+
+ Feature  31915    Update XCCDF 1.2 results to create human readable version of
+                   what passed, failed or error from OVAL results
+
+ Feature  31913    Add feature to create DOD formatted .ckl file, which is used
+                   for uploading to DOD RMF systems
+
+
+
+ SCAP Compliance Checker 5.7 Defects Resolved
+ ===============================================================================
+ Type     IssueID  Summary
+ -------------------------------------------------------------------------------
+ Defect   32140    Quote In local admin DBD::SQLite::db prepare failed: near
+                   "admin": syntax error" from Error found in
+                   SecurityPrincipleDB (843).
+
+ Defect   32099    "Select AD OU" box appears when first opening SCC on Unix
+                   SSH+WMI Scan type when host file method is selected.
+
+ Defect   32095    Research why all NIST MacOS content seems to be applicable
+                   to all MacOS
+
+ Defect   32081    Windows NTUSER Probe "does not exist" items do not get
+                   filtered out but items that "exists" do with same filter
+                   funtionality
+
+ Defect   32021    Cmdlet Probe Unable to handle Array Output
+
+ Defect   32020    Update XCCDF results to print public IP addresses/network
+                   cards before private IP/network cards to prevent issues with
+                   eMass   
+
+ Defect   32002    Fix OCIL results on Windows remote WMI scans
+
+ Defect   31973    Update SCC OCIL GUI to remove namespace prefix on SCAP
+                   1.2/1.3 profile names
+
+ Defect   31954    Remove unused scan type options for enabling/disabling
+                   SCAP/OVAL/OCIL
+
+ Defect   31944    Fix errors with Windows remote scanning, with multiple hosts
+                   in 'classic' scan mode
+
+ Defect   31917    Update error reporting to include data collection errors
+                   from errorlog in HTML/Text/XCCDF reports
+
+ Defect   31912    Fix Windows collected items reporting for Access Token oval
+                   results RES_Test=ARRAY
+
+ Defect   31911    Fix issues with gathering domainName for creating a hostfile
+                   if domain name hash special characters in it
+
+ Defect   31906    MacOS reporting "Unknown" for several network interfaces
+
+ Defect   31902    Fix build script to sign RHEL rpm files with GPG and update
+                   error handling to fail build if GPG sign fails
+
+ Defect   31772    Update libssh2 from 1.9.0 to 1.10.0
+
+ Defect   31771    Update LibXML2 from 2.9.11 to 2.9.14
+
+ Defect   31770    Update OpenSSL Lib (libcrypto) version - OpenSSL 1.1.1n to
+                   1.1.1q  
+
