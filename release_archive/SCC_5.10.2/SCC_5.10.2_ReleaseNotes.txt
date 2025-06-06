@@ -1,0 +1,75 @@
+ Distribution A: Approved for Public Release (16 Feb 2021) NIWCLANT SPR# 2021-52
+
+ SCAP Compliance Checker Release Notes                   Mar 26, 2025   08:16:51
+ Naval Information Warfare Center (NIWC) Atlantic
+ https://www.niwcatlantic.navy.mil/scap/
+
+
+ SCAP Compliance Checker 5.10.2 Features Added
+ ===============================================================================
+ Type     IssueID  Summary
+ -------------------------------------------------------------------------------
+ Feature  32764    Add NIWC enhanced DISA STIG content for Ubuntu 22.04
+
+ Feature  32735    Add OVAL object comments and OVAL state comments to
+                   HTML/Text reports
+
+ Feature  32725    Update bundled content based on DISA's Q1 2025 STIG releases
+
+ Feature  32724    Add support for Windows user test attributes of 'full_name',
+                   'comment' and 'password_age_days'
+
+
+
+ SCAP Compliance Checker 5.10.2 Defects Resolved
+ ===============================================================================
+ Type     IssueID  Summary
+ -------------------------------------------------------------------------------
+ Defect   32784    Update highlighting of collected item fails to not flag
+                   'does not exist' elemetns when test is 'none_exist"
+
+ Defect   32783    Update Collected Item State/Result for existence only based
+                   checks from 'not evaluated' to 'exists' or 'does not exist'
+
+ Defect   32781    Cmdlet error when running IIS 10 Server Content - Cmdlet
+                   output is not in expected format
+
+ Defect   32744    Fix variable reference issues with Windows cmdlet tests
+
+ Defect   32743    Fix XCCDF Tailoring interface to sort rules the same as
+                   found in the benchmark file
+
+ Defect   32742    Fix variable reference issues with Windows AppcmdListConfig
+                   content variables
+
+ Defect   32741    Fix variable reference issues with Windows Appcmd content
+                   variables
+
+ Defect   32737    Fix variable reference issues with Windows registry 'name'
+                   element 
+
+ Defect   32736    Fix HTML/Text reports for tests that create records (wmi57,
+                   cmdlet, etc..) to include all elements not just those in the
+                   state   
+
+ Defect   32734    Update sorting of reports by Severity/CAT level to only be
+                   for DISA STIG content
+
+ Defect   32729    Fix Windows registry issues with pattern match on a key,
+                   when key ends with a $ anchor
+
+ Defect   32728    Fix XCCDF and CKL reports to include to include Manual
+                   Question 'comments' on rules with a 'Not Applicable' result
+
+ Defect   32727    Fix HTML report to display 'pass' record data up to the max
+                   pass threshold on rules that fail
+
+ Defect   32726    Fix filter issue on Windows 'user' test when more than one
+                   filter is applied
+
+ Defect   32723    Update SCC's bundled dependencies to current releases
+
+ Defect   32722    Fix runtime issues on Windows if OpenSSL is installed to
+                   C:\Windows\System32 and conflicts with SCC's version of
+                   openSSL 
+
