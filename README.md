@@ -1,5 +1,26 @@
 This is the repository of past SCAP Compliance Checker (SCC) public releases.   For the current release, please visit https://public.cyber.mil/stigs/scap/
 
+Due to issues on cyber.mil, we are posting the current SCC release, 5.11.
+
+  # Current Version:  5.11
+| File    |   Date | 
+| --------------------- |  ----------- | 
+| [Readme](https://raw.githubusercontent.com/niwc-atlantic/scap-scc/refs/heads/main/release_archive/SCC_5.11/SCC_5.11_Readme.txt) | 06/04/2025 |
+| [Checksums](https://raw.githubusercontent.com/niwc-atlantic/scap-scc/refs/heads/main/release_archive/SCC_5.11/SCC_5.11_Checksums.txt) | 06/04/2025 |
+| [Release Notes](https://raw.githubusercontent.com/niwc-atlantic/scap-scc/refs/heads/main/release_archive/SCC_5.11/SCC_5.11_ReleaseNotes.txt) | 06/04/2025 |
+| [RPM GPG Key](https://raw.githubusercontent.com/niwc-atlantic/scap-scc/refs/heads/main/release_archive/SCC_5.11/RPM-GPG-KEY-SCC-5.11) | 06/04/2025 |
+| [UNIX Remote Scanning Plugin](https://media.githubusercontent.com/media/niwc-atlantic/scap-scc/refs/heads/main/release_archive/SCC_5.11/SCC_5.11_UNIX_Remote_Scanning_Plugin.scc) | 06/04/2025 |
+| [Windows](https://media.githubusercontent.com/media/niwc-atlantic/scap-scc/refs/heads/main/release_archive/SCC_5.11/scc-5.11_Windows_bundle.zip) | 06/04/2025 |
+| [RHEL7/SLES12-15/OracleLinux7 x86_64](https://media.githubusercontent.com/media/niwc-atlantic/scap-scc/refs/heads/main/release_archive/SCC_5.11/scc-5.11_rhel7_sles12-15_oracle-linux7_x86_64_bundle.zip) | 06/04/2025 |
+| [RHEL8/OracleLinux8 aarch64](https://media.githubusercontent.com/media/niwc-atlantic/scap-scc/refs/heads/main/release_archive/SCC_5.11/scc-5.11_rhel8_oracle-linux8_aarch64_bundle.zip) | 06/04/2025 |
+| [RHEL8/OracleLinux8 arm64](https://media.githubusercontent.com/media/niwc-atlantic/scap-scc/refs/heads/main/release_archive/SCC_5.11/scc-5.11_rhel8_oracle-linux8_x86_64_bundle.zip) | 06/04/2025 |
+| [RHEL9/OracleLinux9 x86_64](https://media.githubusercontent.com/media/niwc-atlantic/scap-scc/refs/heads/main/release_archive/SCC_5.11/scc-5.11_rhel9_oracle-linux9_x86_64_bundle.zip) | 06/04/2025 |
+| [Solaris 11 i386](https://media.githubusercontent.com/media/niwc-atlantic/scap-scc/refs/heads/main/release_archive/SCC_5.11/scc-5.11_solaris11_i386_bundle.zip) | 06/04/2025 |
+| [Solaris 11 SPARC](https://media.githubusercontent.com/media/niwc-atlantic/scap-scc/refs/heads/main/release_archive/SCC_5.11/scc-5.11_solaris11_sparc_bundle.zip) | 06/04/2025 |
+| [Ubuntu 18/20 amd64](https://media.githubusercontent.com/media/niwc-atlantic/scap-scc/refs/heads/main/release_archive/SCC_5.11/scc-5.11_ubuntu18_ubuntu20_amd64_bundle.zip) | 06/04/2025 |
+| [Ubuntu 20/raspios bullseye arm64](https://media.githubusercontent.com/media/niwc-atlantic/scap-scc/refs/heads/main/release_archive/SCC_5.11/scc-5.11_ubuntu20_raspios-bullseye_arm64_bundle.zip) | 06/04/2025 |
+| [ubuntu 22/24 amd64](https://media.githubusercontent.com/media/niwc-atlantic/scap-scc/refs/heads/main/release_archive/SCC_5.11/scc-5.11_ubuntu22_amd64_bundle.zip) | 06/04/2025 |
+
   # SCC sunset builds for previously supported platforms
 
 | Version    |   Date | 
