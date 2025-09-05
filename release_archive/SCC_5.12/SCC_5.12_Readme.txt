@@ -1,0 +1,47 @@
+SCAP Compliance Checker (SCC) 5.12 Readme
+09/05/2025
+
+SCC_5.12_ReleaseNotes.txt
+- Contains list of high level features added and bugs fixed in this release
+
+SCC_5.12_Checksums.txt
+- Contains SHA256 checksums of all zips, installers and binaries.
+
+SCC_5.12_UNIX_Remote_Scanning_Plugin.scc
+- Plugin which can be installed into the SCC GUI to perform SSH based remote reviews of Linux, Solaris and MacOS.
+
+macOS:
+- Contains release notes, user manual, and a tar.gz file for manual installation.  (package installer is planned for all future releases)
+This build is designed to work on macOS 13, 14, 15 on Apple "M" processors.  
+scc-5.12_macOS_arm64_bundle.zip
+
+Raspberry Pi OS:
+- All bundles contain release notes, user manual, DEB installer and a tar.gz file for manual installation.
+scc-5.12_ubuntu20_raspios-bullseye_arm64_bundle.zip
+
+RHEL, SUSE and Oracle Linux:
+- All bundles contain release notes, user manual, RPM installer and a tar.gz file for manual installation.
+scc-5.12_rhel7_sles12-15_oracle-linux7_x86_64_bundle.zip  
+scc-5.12_rhel8_oracle-linux8_x86_64_bundle.zip 
+scc-5.12_rhel8_oracle-linux8_aarch64_bundle.zip
+scc-5.12_rhel9_oracle-linux9_x86_64_bundle.zip 
+scc-5.12_rhel9_oracle-linux9_aarch64_bundle.zip
+
+RPM-GPG-KEY-scc-5.12
+ - public key for validating RPM's, per RHEL STIG requirement
+
+Solaris:
+- All bundles contain release notes, user manual, PKG installer and a tar.gz file for manual installation.
+scc-5.12_solaris11_i386_bundle.zip
+scc-5.12_solaris11_sparc_bundle.zip
+
+Ubuntu:
+- All bundles contain release notes, user manual, DEB installer and a tar.gz file for manual installation.
+scc-5.12_ubuntu18_ubuntu20_amd64_bundle.zip
+scc-5.12_ubuntu20_raspios-bullseye_arm64_bundle.zip
+scc-5.12_ubuntu22_amd64_bundle.zip
+scc-5.12_ubuntu22_arm64_bundle.zip
+
+Windows:
+- Contains release notes, user manual, EXE installer and a zip file for manual installation.
+scc-5.12_Windows_bundle.zip

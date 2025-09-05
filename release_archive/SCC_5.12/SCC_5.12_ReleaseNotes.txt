@@ -1,0 +1,63 @@
+ Distribution A: Approved for Public Release (16 Feb 2021) NIWCLANT SPR# 2021-52
+
+ SCAP Compliance Checker Release Notes                   Sep 05, 2025   07:59:32
+ Naval Information Warfare Center (NIWC) Atlantic
+ https://www.niwcatlantic.navy.mil/scap/
+
+
+ SCAP Compliance Checker 5.12 Features Added
+ ===============================================================================
+ Type     IssueID  Summary
+ -------------------------------------------------------------------------------
+ Feature  32933    Add DISA STIG 'check text' to all detailed Text/HTML reports
+                   when using NIWC enhanced content
+
+ Feature  32932    Disable creation of OCIL XML results by default to save time
+                   and disk space
+
+ Feature  32931    Add NIWC developed STIG/SCAP benchmarks for MS DNS Server
+
+ Feature  32930    Add NIWC developed STIG/SCAP benchmarks for MS SQL Server
+                   2022    
+
+ Feature  32929    Disable creation of OVAL XML results by default to save time
+                   and disk space
+
+ Feature  32919    Update UNIX SSH support to include MacOS 13, 14, 15
+
+ Feature  32915    Add DISA's Tri-Lab Operating System Stack (TOSS) SCAP
+                   benchmarks to SCC on RHEL
+
+ Feature  32914    Add DISA's Kubernetes SCAP benchmark to SCC on Linux
+
+ Feature  32912    Update SCAP content based on DISA's Q3 2025 release
+
+ Feature  32906    Update embedded dependencies to latest available
+
+ Feature  32903    Add support for MacOS 13 and later running on Apple M series
+                   processors
+
+ Feature  32898    Add SCAP content for macOS 13, 14, 15 content created based
+                   on NIST's macOS Security Compliance Project
+
+ Feature  31835    Add support for RHEL 9 aarch64
+
+
+
+ SCAP Compliance Checker 5.12 Defects Resolved
+ ===============================================================================
+ Type     IssueID  Summary
+ -------------------------------------------------------------------------------
+ Defect   32947    Update rule applicability to not be linked to SCC options
+                   that enables content stream regardless of applicability
+
+ Defect   32902    Fix command line menu issue for enabling/disabling CKL/CKLB
+                   files   
+
+ Defect   32901    Disable viewing Reports/Logs/XML in SCC on macOS, only use
+                   system default viewer
+
+ Defect   32896    Allow for the collection of more than one shellcommand_item
+
+ Defect   32895    Fix error creating Content Name sub-directory
+
