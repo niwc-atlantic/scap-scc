@@ -1,4 +1,4 @@
-This is the repository of past SCAP Compliance Checker (SCC) public releases.   For the current release, please visit https://www.cyber.mil/stigs/scap/
+This is the repository of past SCAP Compliance Checker (SCC) public releases.   For the current release, please visit https://www.cyber.mil/stigs/SCAP
 
 Due to issues on cyber.mil, we are posting the current SCC release, 5.12.
 
@@ -37,4 +37,5 @@ Due to issues on cyber.mil, we are posting the current SCC release, 5.12.
 | [SCC 5.8 Windows 10 (i386/32 bit)](https://github.com/niwc-atlantic/scap-scc/blob/main/release_archive/SCC_5.8/scc-5.8_Windows_bundle.zip) | 08/24/2023|
 
 For other releases, please browse the repository : https://github.com/niwc-atlantic/scap-scc/tree/main/release_archive
+
 
