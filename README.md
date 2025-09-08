@@ -35,4 +35,6 @@ Due to issues on cyber.mil, we are posting the current SCC release, 5.12.
 | [SCC 5.8 Solaris 10 (SPARC)](https://media.githubusercontent.com/media/niwc-atlantic/scap-scc/refs/heads/main/release_archive/SCC_5.8/scc-5.8_solaris10_sparc_bundle.zip) | 08/24/2023|
 | [SCC 5.8 Mac OS (x86_64)](https://media.githubusercontent.com/media/niwc-atlantic/scap-scc/refs/heads/main/release_archive/SCC_5.8/scc-5.8_macosx10_x86_64_bundle.zip) | 08/24/2023|
 | [SCC 5.8 Windows 10 (i386/32 bit)](https://github.com/niwc-atlantic/scap-scc/blob/main/release_archive/SCC_5.8/scc-5.8_Windows_bundle.zip) | 08/24/2023|
-For other releases, please browse the repository.
+
+For other releases, please browse the repository : https://github.com/niwc-atlantic/scap-scc/tree/main/release_archive
+
