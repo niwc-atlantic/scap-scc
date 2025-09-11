@@ -14,9 +14,9 @@ Due to issues on cyber.mil, we are posting the current SCC release, 5.12.
 | [macOS M processor](https://media.githubusercontent.com/media/niwc-atlantic/scap-scc/refs/heads/main/release_archive/SCC_5.12/scc-5.12_macOS_arm64_bundle.zip) | 09/05/2025 |
 | [RHEL7/SLES12-15/OracleLinux7 x86_64](https://media.githubusercontent.com/media/niwc-atlantic/scap-scc/refs/heads/main/release_archive/SCC_5.12/scc-5.12_rhel7_sles12-15_oracle-linux7_x86_64_bundle.zip) | 09/05/2025 |
 | [RHEL8/OracleLinux8 aarch64](https://media.githubusercontent.com/media/niwc-atlantic/scap-scc/refs/heads/main/release_archive/SCC_5.12/scc-5.12_rhel8_oracle-linux8_aarch64_bundle.zip) | 09/05/2025 |
-| [RHEL8/OracleLinux8 arm64](https://media.githubusercontent.com/media/niwc-atlantic/scap-scc/refs/heads/main/release_archive/SCC_5.12/scc-5.12_rhel8_oracle-linux8_x86_64_bundle.zip) | 09/05/2025 |
-| [RHEL9/OracleLinux9 x86_64](https://media.githubusercontent.com/media/niwc-atlantic/scap-scc/refs/heads/main/release_archive/SCC_5.12/scc-5.12_rhel9_oracle-linux9_x86_64_bundle.zip) | 09/05/2025 |
+| [RHEL8/OracleLinux8 x86_x64](https://media.githubusercontent.com/media/niwc-atlantic/scap-scc/refs/heads/main/release_archive/SCC_5.12/scc-5.12_rhel8_oracle-linux8_x86_64_bundle.zip) | 09/05/2025 |
 | [RHEL9/OracleLinux9 aarch64](https://media.githubusercontent.com/media/niwc-atlantic/scap-scc/refs/heads/main/release_archive/SCC_5.12/scc-5.12_rhel9_oracle-linux9_x86_64_bundle.zip) | 09/05/2025 |
+| [RHEL9/OracleLinux9 x86_64](https://media.githubusercontent.com/media/niwc-atlantic/scap-scc/refs/heads/main/release_archive/SCC_5.12/scc-5.12_rhel9_oracle-linux9_x86_64_bundle.zip) | 09/05/2025 |
 | [Solaris 11 i386](https://media.githubusercontent.com/media/niwc-atlantic/scap-scc/refs/heads/main/release_archive/SCC_5.12/scc-5.12_solaris11_i386_bundle.zip) | 09/05/2025 |
 | [Solaris 11 SPARC](https://media.githubusercontent.com/media/niwc-atlantic/scap-scc/refs/heads/main/release_archive/SCC_5.12/scc-5.12_solaris11_sparc_bundle.zip) | 09/05/2025 |
 | [Ubuntu 18/20 amd64](https://media.githubusercontent.com/media/niwc-atlantic/scap-scc/refs/heads/main/release_archive/SCC_5.12/scc-5.12_ubuntu18_ubuntu20_amd64_bundle.zip) | 09/05/2025 |
@@ -37,5 +37,6 @@ Due to issues on cyber.mil, we are posting the current SCC release, 5.12.
 | [SCC 5.8 Windows 10 (i386/32 bit)](https://github.com/niwc-atlantic/scap-scc/blob/main/release_archive/SCC_5.8/scc-5.8_Windows_bundle.zip) | 08/24/2023|
 
 For other releases, please browse the repository : https://github.com/niwc-atlantic/scap-scc/tree/main/release_archive
+
 
 
