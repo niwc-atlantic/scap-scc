@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <scc>
-	<version>5.12</version>
-	<timeStamp>2025-09-05T11:00:00</timeStamp>
+	<version>5.12.1</version>
+	<timeStamp>2025-09-16T11:00:00</timeStamp>
 	<releaseInfo>
 - For All Platforms -
 -- Updated SCAP content based on NIWC content for DISA Q3 2025 release of STIG manuals
@@ -15,6 +15,7 @@
 
 - For Linux - 
 -- Added support for RHEL9 aarch64 and Ubuntu 22 arm64
+-- Added NIWC Enhanced content for Ubuntu 24.04
 
 </releaseInfo>
 	<url>https://www.cyber.mil/stigs/scap/</url>
