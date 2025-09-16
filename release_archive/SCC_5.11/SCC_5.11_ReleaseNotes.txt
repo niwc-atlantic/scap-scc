@@ -1,0 +1,95 @@
+ Distribution A: Approved for Public Release (16 Feb 2021) NIWCLANT SPR# 2021-52
+
+ SCAP Compliance Checker Release Notes                   Jun 03, 2025   15:00:34
+ Naval Information Warfare Center (NIWC) Atlantic
+ https://www.niwcatlantic.navy.mil/scap/
+
+
+ SCAP Compliance Checker 5.11 Features Added
+ ===============================================================================
+ Type     IssueID  Summary
+ -------------------------------------------------------------------------------
+ Feature  32878    Add support for SCAP 1.4 standards
+
+ Feature  32870    Add digital signature information to all SCC reports
+
+ Feature  32854    Update SCAP content based on NIWC content for DISA Q2 2025
+                   release of STIG manuals
+
+ Feature  32853    Update SCAP content installation to perform XML Digital
+                   Signature validation (if signed)
+
+ Feature  32852    Update SCC to support upcoming SCAP 1.4 requirements for
+                   Digital Signature validation
+
+ Feature  32841    Update URL for obtaining information on SCC releases from
+                   DISA's github repository to NIWC github
+
+ Feature  32839    Update URL for obtaining SCAP content from DISA's github
+                   repository to NIWC Atlantic SCAP Content Library URL
+
+ Feature  32831    Add command line arguments and documentation for importing
+                   deviations
+
+ Feature  32822    Update XCCDF rule result messages to include Rule result,
+                   and deviation information
+
+ Feature  32821    Add support for multiple OVAL documents as part of a SCAP
+                   datastream
+
+ Feature  32820    Add feature to import/export tailoring files via SCC GUI
+
+ Feature  32818    Add suport for DISA's CKLB format report
+
+ Feature  32815    Add NIWC developed Windows Update SCAP benchmark to check
+                   for missing updates
+
+ Feature  32814    Improve error handling of Windows OVAL wuasearcher test to
+                   report errors when unable to gather data
+
+ Feature  32813    Update Windows WindowsUpdateSearcher test to report an error
+                   if offline wsusscan2.cab file is more than 30 days old
+
+ Feature  32812    Update XCCDF XML results to include "Error Information" from
+                   SCC's reports
+
+ Feature  32811    OVAL 5.12.1: Update OVAL results format of Windows
+                   WuaUpdateSearcher to provide title, URL, severity
+                   is_installed, is_hidden
+
+ Feature  32809    Add support for new OVAL 5.12.1 Windows ntuser attribute of
+                   'days_since_last_logon'
+
+ Feature  32785    Add Deviations feature back to SCC, providing a method to
+                   document why a given check should 'pass with deviation'
+
+ Feature  32776    Update validation of content to require digital signature
+                   for any content that contain new OVAL 5.12 shellcommand test
+
+ Feature  32775    Update Windows WuaUpdateSearcher test to support using an
+                   offline wssuscn2.cab from Microsoft for offline enclaves
+
+ Feature  32719    Update SCC to write OVAL results as OVAL 5.12 by default
+
+ Feature  32718    Add OVAL 5.12 schema's for validation of new OVAL 5.12
+                   features/content
+
+
+
+ SCAP Compliance Checker 5.11 Defects Resolved
+ ===============================================================================
+ Type     IssueID  Summary
+ -------------------------------------------------------------------------------
+ Defect   32892    SCC Crash when saving manual question after filtering to
+                   another question
+
+ Defect   32863    Update error handling on Variable tests to ensure every
+                   variable references as a var_ref can be found in the
+                   document
+
+ Defect   32848    Remove error message when SQL Instances are found to be
+                   zero, just proceed as not-applicable
+
+ Defect   32847    Fix issues loading multiple OVAL components when processing
+                   XCCDF platform specification checks
+
