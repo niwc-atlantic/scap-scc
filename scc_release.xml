@@ -1,22 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <scc>
-	<version>5.13</version>
-	<timeStamp>2025-12-19T11:00:00</timeStamp>
+	<version>5.14</version>
+	<timeStamp>2026-02-11T11:00:00</timeStamp>
 	<releaseInfo>
 - For All Platforms -
--- Update SCAP content based on DISA's Q4 2025 releaseals
--- Added NIWC developed SCAP Benchmarks for Cisco IOS XE Switch, Cisco IOS Router, Cisco IOS Switch
-		
-- For macOS 
--- Added support for macOS 26
--- Added NIST/NIWC collaboration DISA STIG SCAP content for macOS 26
+-- Update SCAP content based on DISA's Q1 2026 STIGs
 
 - For Linux - 
--- Improve efficiency of OVAL UNIX file test4
+-- Improved efficiency of OVAL UNIX file, password and shadow tests, espeically for large systems
 
-- For Windows -
--- Improve efficiency of looking up Windows group/user/sid information on large domain controllers
---  Update SCC service on Windows to be 64 bit
 </releaseInfo>
 	<url>https://www.cyber.mil/stigs/SCAP/</url>
 </scc>
