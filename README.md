@@ -1,6 +1,6 @@
 This is the repository of past SCAP Compliance Checker (SCC) public releases.   For the current release, please visit https://www.cyber.mil/stigs/SCAP
 
- # Current release: 5.14
+ # Current release: 5.14.1
 
   # SCC sunset builds for previously supported platforms
 
