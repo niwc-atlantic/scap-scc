@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <scc>
-	<version>5.14.1</version>
-	<timeStamp>2026-05-04T11:00:00</timeStamp>
+	<version>5.15</version>
+	<timeStamp>2026-09-01T11:00:00</timeStamp>
 	<releaseInfo>
 - For All Platforms -
--- Update SCAP content based on DISA's Q2 2026 STIGs
--- Minor bugfixes from 5.14
-
+-- Update SCAP content based on DISA's Q3 2026 STIGs
+-- Added option to share deviations and tailoring across content versions.
+- Linux -
+-- Consolidated all Linux builds to a single x86_64 and aarch64
+-- New DISA content for Amazon Linux 2023
+-- New NIWC content for F5 NGINX
+- Windows - 
+-- New DISA content for Windows Server 2025 
+-- New NIWC content for Microsoft Exchange 2019/ES
 </releaseInfo>
 	<url>https://www.cyber.mil/stigs/SCAP/</url>
 </scc>
